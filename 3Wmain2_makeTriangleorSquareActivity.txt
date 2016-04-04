@@ -1,0 +1,24 @@
+﻿
+@startuml
+
+title Conditional - Draw Triangle or Square
+
+
+start
+
+:get user input (T or S); 
+
+if user_input=='T'
+  :sides=4;
+  :angle=90;
+
+elseif user_input=='S'
+  :sides=3;
+  :angle=120;
+endif
+
+:draw shape with sides, angle;
+
+stop
+
+@enduml
