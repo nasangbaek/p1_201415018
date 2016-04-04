@@ -1,0 +1,19 @@
+﻿
+start
+:height=174;
+:weight=70;
+:compute bmi;
+if (18.5<bmi<25)
+    :print "normal";
+elseif(25.0<=bmi<30.0)
+    :print "overweight";
+elseif(bmi<=30.0)
+    :print "much overweight";
+elseif(bmi<18.5)
+    :print "underweight";
+else
+    :print "Error";
+
+endif
+
+stop
