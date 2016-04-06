@@ -1,0 +1,9 @@
+﻿
+
+
+:get user input 'year';
+if('year' is divided by 4 and (divided by 100 or 400)) then(Yes)
+    :print 'leap year';
+else
+    :print 'normal year';
+endif
