@@ -1,0 +1,42 @@
+﻿
+
+
+
+@startuml 
+
+:leapyear;
+
+:get user input 'year';
+if('year' is divided by 4 and (divided by 100 or 400)) then(Yes)
+    :print 'leap year';
+else
+    :print 'normal year';
+endif
+
+
+
+
+
+
+@startuml
+
+title While Loop - up and down
+
+start
+
+:import random;
+:sel1=random.range(1,50);
+:set number, times=0;
+:set number, sel2=-1;
+
+while (sel1!=sel2)  is (Yes)
+  :get user input number,sel2;
+  if (sel2>sel1)
+  :print down;
+  elseif (sel2<sel1)
+  :print up;
+  endif
+  :times+1=times;
+  
+endwhile (no)
+:print times;
