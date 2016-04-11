@@ -1,0 +1,18 @@
+﻿
+
+start
+:set how many turns;
+:set how much to grow bigger;
+:set angle;
+:set start size;
+:get user input "sides,size,bigger,angle";
+:sides=10,size=10,bigger=10,angle=90;
+
+repeat
+if (i is divided by 2) then
+    :grow bigger;
+endif
+:draw;
+repeat while(turns)
+stop
+@enduml
