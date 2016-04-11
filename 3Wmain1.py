@@ -1,4 +1,4 @@
-﻿
+이거 잘못올렸습니다.ㅠㅠ 아래에 다시 올렸습니다.
 marks=raw_input("enter marks")
 print marks
 
