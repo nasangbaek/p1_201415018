@@ -1,0 +1,22 @@
+﻿@startuml
+
+CHANGE CEL TO FEH RO FEH TO CEL
+
+
+start
+
+:setting option: option, FehtoCel, CeltoFeh, quit;
+:get user input "option, Feh, Cel, quit";
+:choice==-1, setting basic;
+
+while (choice!=quit) is (Yes)
+  if (choice==Feh)
+  :change FehtoCel;
+  elseif (choice==Cel)
+  :change CeltoFeh;
+  elseif (choice==option)
+  :print option;
+  endif
+  
+endwhile (no)
+:print quit;
